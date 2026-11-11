@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'silicon-thread.pages.dev';
+const HOST = 'silicon-thread.pageaura.xyz';
 const KEY = '80a200b6ce53433184885359edb15b04';
-const KEY_LOCATION = `https://silicon-thread.pages.dev/80a200b6ce53433184885359edb15b04.txt`;
+const KEY_LOCATION = `https://silicon-thread.pageaura.xyz/80a200b6ce53433184885359edb15b04.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
