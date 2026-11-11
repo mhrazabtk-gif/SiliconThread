@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://silicon-thread.pages.dev';
+const DOMAIN = 'https://silicon-thread.pageaura.xyz';
 const KEY = '80a200b6ce53433184885359edb15b04';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'silicon-thread.pages.dev' ||
+    url.hostname.toLowerCase() !== 'silicon-thread.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
